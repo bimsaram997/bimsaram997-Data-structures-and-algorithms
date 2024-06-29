@@ -1,0 +1,15 @@
+E:\My Projects\Data structres and Algorithms\CSharpVersion\bin\Debug\net6.0\CSharpVersion.exe
+E:\My Projects\Data structres and Algorithms\CSharpVersion\bin\Debug\net6.0\CSharpVersion.deps.json
+E:\My Projects\Data structres and Algorithms\CSharpVersion\bin\Debug\net6.0\CSharpVersion.runtimeconfig.json
+E:\My Projects\Data structres and Algorithms\CSharpVersion\bin\Debug\net6.0\CSharpVersion.dll
+E:\My Projects\Data structres and Algorithms\CSharpVersion\bin\Debug\net6.0\CSharpVersion.pdb
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.csproj.AssemblyReference.cache
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.AssemblyInfoInputs.cache
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.AssemblyInfo.cs
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.csproj.CoreCompileInputs.cache
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.dll
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\refint\CSharpVersion.dll
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.pdb
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\CSharpVersion.genruntimeconfig.cache
+E:\My Projects\Data structres and Algorithms\CSharpVersion\obj\Debug\net6.0\ref\CSharpVersion.dll
