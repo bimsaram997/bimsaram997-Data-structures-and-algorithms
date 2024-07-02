@@ -52,31 +52,58 @@ class Program
              Console.WriteLine(item + ", ");
          }*/
 
-        CustomQueue queue = new CustomQueue();
+        /* CustomQueue queue = new CustomQueue();
 
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        queue.enqueue(40);
-        queue.enqueue(50);
+         queue.enqueue(10);
+         queue.enqueue(20);
+         queue.enqueue(30);
+         queue.enqueue(40);
+         queue.enqueue(50);
 
-        queue.printQueue();
+         queue.printQueue();
 
-        queue.dequeue();
-        queue.printQueue();
+         queue.dequeue();
+         queue.printQueue();
 
-        queue.enqueue(60);
-        queue.printQueue();
+         queue.enqueue(60);
+         queue.printQueue();
 
-        Console.WriteLine("Front item is: " + queue.peek());
+         Console.WriteLine("Front item is: " + queue.peek());
 
-        while (!queue.isEmpty())
+         while (!queue.isEmpty())
+         {
+             queue.dequeue();
+             queue.printQueue();
+         }
+
+         queue.dequeue();*/
+
+        /*PriorityQueue<string, int> priorityQueue= new PriorityQueue<string, int>();
+       
+        priorityQueue.Enqueue("Bimsara", 2);
+        priorityQueue.Enqueue("Janith", 1);
+        priorityQueue.Enqueue("Harsha", 1);
+        priorityQueue.Enqueue("Sineth", 2);
+        priorityQueue.Enqueue("Anuja", 3);
+
+        Console.WriteLine("Front item is: " + priorityQueue.Peek());
+
+        while (priorityQueue.Count > 0)
         {
-            queue.dequeue();
-            queue.printQueue();
-        }
+            var item = priorityQueue.Dequeue();
+            Console.WriteLine(item);
+        }*/
 
-        queue.dequeue();
+        var priorityQueue = new CustomPriorityQueue<string>();
+        priorityQueue.Enqueue("Bimsara", 2);
+        priorityQueue.Enqueue("Janith", 1);
+        priorityQueue.Enqueue("Harsha", 1);
+        priorityQueue.Enqueue("Sineth", 2);
+        priorityQueue.Enqueue("Anuja", 3);
 
+        Console.WriteLine("Front item is: " + priorityQueue.Peek());
+
+        Console.WriteLine("Items in priority order:");
+        priorityQueue.PrintQueue();
     }
 }

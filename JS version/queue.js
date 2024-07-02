@@ -16,6 +16,13 @@ class Queue {
         delete this.items[this.frontIndex];
         this.frontIndex++;
         return item + " Deleted";
+
+
+
+
+
+
+         
     }
 
     peek() {
