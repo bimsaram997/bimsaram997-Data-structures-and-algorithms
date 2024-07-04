@@ -94,16 +94,57 @@ class Program
             Console.WriteLine(item);
         }*/
 
-        var priorityQueue = new CustomPriorityQueue<string>();
-        priorityQueue.Enqueue("Bimsara", 2);
-        priorityQueue.Enqueue("Janith", 1);
-        priorityQueue.Enqueue("Harsha", 1);
-        priorityQueue.Enqueue("Sineth", 2);
-        priorityQueue.Enqueue("Anuja", 3);
+        /* var priorityQueue = new CustomPriorityQueue<string>();
+         priorityQueue.Enqueue("Bimsara", 2);
+         priorityQueue.Enqueue("Janith", 1);
+         priorityQueue.Enqueue("Harsha", 1);
+         priorityQueue.Enqueue("Sineth", 2);
+         priorityQueue.Enqueue("Anuja", 3);
 
-        Console.WriteLine("Front item is: " + priorityQueue.Peek());
+         Console.WriteLine("Front item is: " + priorityQueue.Peek());
 
-        Console.WriteLine("Items in priority order:");
-        priorityQueue.PrintQueue();
+         Console.WriteLine("Items in priority order:");
+         priorityQueue.PrintQueue();*/
+
+        /*  LinkedList<String> list = new LinkedList<String>();
+          list.AddFirst("a");
+          list.AddLast("b");
+          list.AddLast("c");
+          list.AddLast("d");
+          list.AddLast("e");
+          list.AddLast("f");
+
+          foreach (string str in list)
+          {
+              Console.WriteLine(str);
+          }
+          Console.WriteLine("/////");
+          list.Remove(list.First);
+          list.Remove("b");
+          list.RemoveFirst();
+          list.RemoveLast();
+          foreach (string str in list)
+          {
+              Console.WriteLine(str);
+          }
+          if (list.Contains("g") == true)
+          {
+              Console.WriteLine("Element Found...!!");
+          } else
+          {
+              Console.WriteLine("Element Not Found...!!");
+          }*/
+
+        CustomLinkedList list = new CustomLinkedList();
+        list.addNode(1);
+        list.addNode(2);
+        list.addNode(3);
+        list.addNode(4);
+        list.addNode(5);
+        list.insertAt(1, 8);
+        //list.removeFrom(0);
+        list.printLinkedList();
+        Console.WriteLine("///");
+       // Console.WriteLine(list.get(1));
     }
 }

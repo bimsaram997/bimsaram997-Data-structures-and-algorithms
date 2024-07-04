@@ -26,19 +26,29 @@
 // console.log(queue.printQueue());
 
 
-const priorityQueue =  new PriorityQueue();
-console.log(priorityQueue.isEmpty());
-console.log(priorityQueue.front());
-priorityQueue.enqueue("Bimsara", 2);
-priorityQueue.enqueue("Janith", 1);
-priorityQueue.enqueue("Harsha", 1);
-priorityQueue.enqueue("Sineth", 2);
-priorityQueue.enqueue("Anuja", 3);
+// const priorityQueue =  new PriorityQueue();
+// console.log(priorityQueue.isEmpty());
+// console.log(priorityQueue.front());
+// priorityQueue.enqueue("Bimsara", 2);
+// priorityQueue.enqueue("Janith", 1);
+// priorityQueue.enqueue("Harsha", 1);
+// priorityQueue.enqueue("Sineth", 2);
+// priorityQueue.enqueue("Anuja", 3);
 
-console.log(priorityQueue.printPQueue());
-console.log(priorityQueue.front().element);
-console.log(priorityQueue.rear().element);
-console.log(priorityQueue.dequeue().element);
-console.log(priorityQueue.printPQueue());
-priorityQueue.enqueue("Sunil", 2);
-console.log(priorityQueue.printPQueue());
+// console.log(priorityQueue.printPQueue());
+// console.log(priorityQueue.front().element);
+// console.log(priorityQueue.rear().element);
+// console.log(priorityQueue.dequeue().element);
+// console.log(priorityQueue.printPQueue());
+// priorityQueue.enqueue("Sunil", 2);
+// console.log(priorityQueue.printPQueue());
+
+const list = new LinkedList();
+list.addNode(1);
+list.addNode(2);
+list.addNode(3);
+list.addNode(4);
+list.addNode(5);
+//list.printLinedList();
+list.insertAt(1,0);
+list.printLinedList();
