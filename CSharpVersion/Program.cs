@@ -1,4 +1,5 @@
 ﻿using CSharpVersion;
+using NPOI.SS.Formula.Functions;
 using System;
 
 class Program
@@ -135,16 +136,27 @@ class Program
               Console.WriteLine("Element Not Found...!!");
           }*/
 
-        CustomLinkedList list = new CustomLinkedList();
+        /*CustomLinkedList list = new CustomLinkedList();
         list.addNode(1);
         list.addNode(2);
         list.addNode(3);
         list.addNode(4);
         list.addNode(5);
         list.insertAt(1, 8);
-        //list.removeFrom(0);
+        list.removeFrom(0);
         list.printLinkedList();
         Console.WriteLine("///");
-       // Console.WriteLine(list.get(1));
+        Console.WriteLine(list.get(1));*/
+
+        CustomDynamicArray array = new CustomDynamicArray(5);
+        array.add("A");
+        array.add("B");
+        array.add("C");
+        array.add("D");
+        array.add("E");
+        array.add("F");
+ 
+        Console.WriteLine(array.toString());
+
     }
 }

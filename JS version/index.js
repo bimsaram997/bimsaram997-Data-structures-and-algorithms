@@ -43,12 +43,31 @@
 // priorityQueue.enqueue("Sunil", 2);
 // console.log(priorityQueue.printPQueue());
 
-const list = new LinkedList();
-list.addNode(1);
-list.addNode(2);
-list.addNode(3);
-list.addNode(4);
-list.addNode(5);
-//list.printLinedList();
-list.insertAt(1,0);
-list.printLinedList();
+// const list = new LinkedList();
+// list.addNode(1);
+// listlist.printLinedList();.addNode(2);
+// list.addNode(3);
+// list.addNode(4);
+// list.addNode(5);
+// //list.printLinedList();
+// list.insertAt(1,0);
+
+
+//Dyanamic array
+
+const array =  new DynamicArray(5);
+array.add("A");
+array.add("B");
+array.add("C");
+array.add("D");
+array.add("E");
+array.add("F");
+//array.insert(0, "X");
+
+
+//array.delete("A");
+console.log(array.toString());
+console.log("Index is  : " +array.search("B")); 
+console.log("Cpacity " + array.capacity);
+console.log("Size " + array.size);
+console.log(array.isEmpty());
